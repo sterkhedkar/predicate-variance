@@ -1,4 +1,5 @@
- var myChart = echarts.init(document.getElementById('main'));
+ console.log("init")
+var myChart = echarts.init(document.getElementById('main'));
         var option = {
             title: {
                 text: 'ECharts 入门示例'
@@ -17,5 +18,6 @@
                 data: [5, 20, 36, 10, 10, 20]
             }]
         };
+console.log("exit")
         myChart.setOption(option);
     
